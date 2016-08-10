@@ -1,8 +1,8 @@
-package ru.sbt.classloaders;
+package ru.sbt.classloaders.basics;
 
 public class Calculator {
     static {
-        System.out.println("Calculator.static initializer");
+        System.out.println("Plugin.static initializer");
     }
 
     public int calc() {
